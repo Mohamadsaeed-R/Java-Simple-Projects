@@ -3,7 +3,7 @@ import java.util.*;
 public class DaysOfWeekWithIf {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in) ;
-        System.out.println("Enter the number of between 1 to 7:\n");
+        System.out.println("Enter the number  between 1 to 7:\n");
         int n=input.nextInt();
         String day;
         if (n==1)
