@@ -20,7 +20,7 @@ public class DivisorsOfANumber {
         }
 
         System.out.format("Divisors of the number %d:\n",d);
-        if (d==2){
+        if (d==2) //A prime number has exactly two divisors{
             System.out.format("%d is a prime number \n ",n);
         }
         else {
