@@ -1,4 +1,5 @@
 //The divisors of a number refer to the numbers that can divide that number without leaving a remainder.
+ //A prime number has only two divisors
 
 import java.util.*;
 public class DivisorsOfANumber {
