@@ -1,3 +1,5 @@
+//The divisors of a number refer to the numbers that can divide that number without leaving a remainder.
+
 import java.util.*;
 public class DivisorsOfANumber {
     public static void main(String[]args){
@@ -7,7 +9,9 @@ public class DivisorsOfANumber {
             System.out.format("Divisors of a number %d\n",n);
         int d = 0;
         for(int i = 1 ; i<=n ; i++){
-            if (n % i==0)
+            if (n % i==0) //this condition is used in the code to find all divisors of the number n.
+                //if (i % 2 == 0): this condition checks whether the number i is even.
+                
             {
                 System.out.format("%d\n",i);
                 d++;
