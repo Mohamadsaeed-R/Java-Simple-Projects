@@ -10,7 +10,8 @@ public class DivisorsOfANumber {
             System.out.format("Divisors of a number %d\n",n);
         int d = 0;
         for(int i = 1 ; i<=n ; i++){
-            if (n % i==0) //this condition is used in the code to find all divisors of the number n.  ------------------//if (i % 2 == 0): this condition checks whether the number i is even.    
+            if (n % i==0) //this condition is used in the code to find all divisors of the number n.  ------------------//if (i % 2 == 0): this condition checks whether the number i is even.
+            //If n % i == 0, it means that n is divisible by i."
             {
                 System.out.format("%d\n",i);
                 d++;
