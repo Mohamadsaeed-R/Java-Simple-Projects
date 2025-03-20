@@ -1,7 +1,7 @@
 import java.util.*;
 public class DaysOfTheWeekWithSwitch{
     public static void main(String[] args) {
-        System.out.println("enter a number form [1to7]:\n");
+        System.out.println("enter a number from [1to7]:\n");
         Scanner input=new Scanner (System.in);
         int n= input.nextInt();
         String day="";
