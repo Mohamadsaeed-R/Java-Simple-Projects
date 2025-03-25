@@ -1,8 +1,8 @@
 import javax.swing.JOptionPane;
-public class JOptionpane2 {
+public class joptionpane {
     public static void main(String[] args) {
-    String ans=JOptionPane.showInputDialog("What is your name?");
-    String message =String.format("hi %s welcome to java",ans);
-    JOptionPane.showMessageDialog(null,message);
+        String name=JOptionPane.showInputDialog(null,"hi enter your name :","my app",JOptionPane.INFORMATION_MESSAGE);
+        String message=String.format("welcome to my app %s",name);
+        JOptionPane.showMessageDialog(null,message);
     }
 }
