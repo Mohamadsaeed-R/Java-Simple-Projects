@@ -1,0 +1,14 @@
+// Check if n is even or odd using ternary operator
+
+String type = (n % 2 == 0) ? "even" : "odd";  
+
+
+//this is  the same as the code above
+
+
+String type;
+if (n % 2 == 0) {
+    type = "even";
+} else {
+    type = "odd";
+}
