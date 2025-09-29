@@ -1,5 +1,7 @@
 // Check if n is even or odd using ternary operator
+// ؟ یعنی گر شرط درست بود، این مقدار رو بده
 
+//  یعنی وگرنه این مقدار رو بده : 
 String type = (n % 2 == 0) ? "even" : "odd";  
 
 
