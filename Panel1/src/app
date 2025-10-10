@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+public class app  {
+    public static void main(String[] args) {
+        MyPanel panel = new MyPanel();      //یک نمونه از پنل خودمون می‌سازیم.
+        JFrame app=new JFrame();            //یک پنجره جدید Swing ایجاد می‌کنیم.
+        app.add(panel);                     //پنل رو به فریم اضافه میکنیم
+        app.setSize(300,300);
+        app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //وقتی کاربر روی دکمه × پنجره کلیک کرد، برنامه کامل بسته شود.
+        app.setVisible(true);           //آن را قابل دیدن میکنیم
+        app.setTitle("My first app");
+    }
+}
